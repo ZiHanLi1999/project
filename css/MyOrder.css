@@ -1,0 +1,84 @@
+body {
+  background-color: #f5f5f5; }
+
+.main {
+  width: 100%; }
+  .main .StatusBar {
+    height: 0.95rem;
+    width: 100%;
+    background-color: #ffffff; }
+    .main .StatusBar img {
+      display: flex;
+      margin: 0 auto;
+      width: 16rem;
+      height: 0.95rem; }
+  .main .top {
+    width: 100%;
+    height: 1.9rem;
+    line-height: 1.9rem;
+    background-color: #ffffff; }
+    .main .top div {
+      text-align: center;
+      position: relative;
+      font-size: 0.7rem;
+      font-weight: bold; }
+      .main .top div .iconfont {
+        position: absolute;
+        font-size: 0.925rem;
+        left: 0.5rem; }
+  .main .nav {
+    background-color: #ffffff; }
+    .main .nav ul {
+      display: flex;
+      justify-content: space-between;
+      height: 2.15rem;
+      line-height: 2.15rem;
+      font-size: 0.625rem; }
+      .main .nav ul a {
+        color: #5e5e5e; }
+      .main .nav ul .li1 a {
+        margin-left: 1.125rem;
+        color: #ff9241; }
+      .main .nav ul .li2 {
+        margin-right: 1rem; }
+  .main .content {
+    height: 5.5rem;
+    background-color: #ffffff; }
+    .main .content .content_top {
+      height: 2.075rem;
+      line-height: 2.075rem;
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 0.025rem solid #f5f5f5;
+      margin-left: 0.7rem;
+      margin-right: 0.675rem; }
+      .main .content .content_top .content_text {
+        display: flex; }
+        .main .content .content_top .content_text .iconfont {
+          display: flex;
+          font-size: 0.875rem; }
+          .main .content .content_top .content_text .iconfont p {
+            font-size: 0.65rem;
+            color: #383838; }
+      .main .content .content_top .iconfont {
+        font-size: 0.675rem; }
+    .main .content .content_bottom {
+      height: 3.425rem;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 17.9rem; }
+      .main .content .content_bottom .content_bottom_l {
+        font-size: 0.875rem;
+        margin-left: 0.675rem;
+        line-height: 3.425rem; }
+      .main .content .content_bottom .content_bottom_r {
+        margin-left: 0.675rem;
+        display: flex;
+        flex-direction: column;
+        margin: 0.8rem 0.675rem 0.975rem 0; }
+        .main .content .content_bottom .content_bottom_r .p1 {
+          font-size: 0.525rem; }
+        .main .content .content_bottom .content_bottom_r .p2 {
+          font-size: 0.475rem;
+          margin-top: 0.45rem;
+          color: #ffa15b; }

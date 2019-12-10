@@ -1,0 +1,37 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "792387",
+      "name": "funnel-漏斗",
+      "font_class": "funnelloudou",
+      "unicode": "e6ca",
+      "unicode_decimal": 59082
+    },
+    {
+      "icon_id": "1115048",
+      "name": "箭头",
+      "font_class": "jiantou",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "2279453",
+      "name": "箭头",
+      "font_class": "jiantou-copy",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    },
+    {
+      "icon_id": "4931608",
+      "name": "日历",
+      "font_class": "rili",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    }
+  ]
+}

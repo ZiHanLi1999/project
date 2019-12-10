@@ -1,0 +1,44 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "741980",
+      "name": "择律-选择费用-倒三角形-反对",
+      "font_class": "zelvxuanzefeiyongdaosanjiaoxingfandui",
+      "unicode": "e665",
+      "unicode_decimal": 58981
+    },
+    {
+      "icon_id": "741981",
+      "name": "择律-选择费用-正三角形-支持",
+      "font_class": "zelvxuanzefeiyongzhengsanjiaoxingzhichi",
+      "unicode": "e666",
+      "unicode_decimal": 58982
+    },
+    {
+      "icon_id": "1288598",
+      "name": "返回键",
+      "font_class": "fanhuijian",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "3102794",
+      "name": "购物车",
+      "font_class": "gouwuche",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "9559067",
+      "name": "加",
+      "font_class": "ziyuan",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    }
+  ]
+}

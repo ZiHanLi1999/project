@@ -1,0 +1,7 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, pre, form, fieldset, input, button, textarea, p, th, td {
+  margin: 0rem;
+  padding: 0rem;
+  list-style: none; }
+
+a {
+  text-decoration: none; }

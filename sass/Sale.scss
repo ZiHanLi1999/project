@@ -1,0 +1,127 @@
+@charset "utf-8";
+@import '../lib/hotcss-master/src/px2rem.scss';
+$designWidth : 640;
+.main{
+    .top{
+        height:px2rem(75);
+        line-height:px2rem(75);
+        text-align: center;
+        position: relative;
+        .title{
+            font-size:px2rem(35);
+            .iconfont{
+                position: absolute;
+                left:px2rem(20);
+                font-size:px2rem(35);
+               
+            }
+        }
+    }
+    .nav{
+        height:px2rem(68);
+        line-height:px2rem(68);
+        text-align: center;
+        border-bottom: px2rem(2) solid #f4f4f4;;
+        ul{
+            display: flex;
+            justify-content:space-around;
+            color: #ababab;
+            font-size:px2rem(30);
+            li{
+                .iconfont{
+                    font-size:px2rem(20);
+                }
+                .icon{
+                    position: relative;
+                    vertical-align: middle;
+                    .icon-zelvxuanzefeiyongzhengsanjiaoxingzhichi{
+                        position: absolute;
+                        top: px2rem(-22);
+                        bottom:px2rem(20);
+                    }
+                }
+            }
+        }
+    }
+    .content{
+        position: relative;
+        .content_center{
+            margin-top:px2rem(28);
+            margin-left:px2rem(28);
+            margin-right:px2rem(28);
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            .items{
+                // width:px2rem(288);
+                // height:px2rem(433);
+                width: 49%;
+
+                .items_img{
+                    img{
+                        width:px2rem(288);
+                        height:px2rem(280);
+                    }
+                }
+                .content_t{
+                    font-size:px2rem(29);
+                    p{
+                        margin-bottom:px2rem(20) ;
+                        .price{
+                            color: red;
+                            font-size:px2rem(28);
+                           float: left;
+                        }
+                        .originalPrice{
+                            text-decoration: line-through;
+                            font-size:px2rem(26);
+                            color: #979797;
+                            margin-left:px2rem(20) ;
+                        }
+                        .iconfont{
+                            font-size:px2rem(30);
+                            color: #979797;
+                            float: right;
+                            vertical-align: middle;
+                        }
+                    }
+                    
+                }
+            }
+        }
+        .shopping{
+            width:px2rem(95);
+            height: px2rem(98);
+            line-height:px2rem(98);
+            background-color:#fafafa;
+            margin-right:px2rem(28);
+            margin-bottom:px2rem(28) ;
+            border:px2rem(1) solid #f3f3f3 ;
+            border-radius: 50%;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            .iconfont{
+                font-size: px2rem(40);
+                line-height:px2rem(98);
+                text-align: center;
+                color: #fd7e5b;
+                position: relative;
+                p{
+                    width:px2rem(28);
+                    height: px2rem(30);
+                    border-radius: 50%;
+                    line-height:px2rem(30);
+                    text-align: center;
+                    font-size: px2rem(15);
+                    color: white;
+                    background-color: #ff9140;
+                    position: absolute;
+                    top:px2rem(-5) ;
+                    right: 0;
+                }
+            }
+        }
+        
+    }
+}

@@ -1,0 +1,58 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "354564",
+      "name": "加号",
+      "font_class": "iconfontadd",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "512594",
+      "name": "向上箭头",
+      "font_class": "xiangxiajiantou-copy",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "587339",
+      "name": "返回",
+      "font_class": "fanhui",
+      "unicode": "e682",
+      "unicode_decimal": 59010
+    },
+    {
+      "icon_id": "1115046",
+      "name": "减",
+      "font_class": "jian",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    },
+    {
+      "icon_id": "1249059",
+      "name": "联系我们",
+      "font_class": "lianxiwomen",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "8361786",
+      "name": "购物车",
+      "font_class": "gouwuche",
+      "unicode": "e6c1",
+      "unicode_decimal": 59073
+    },
+    {
+      "icon_id": "11922314",
+      "name": "手指",
+      "font_class": "shouzhi",
+      "unicode": "e6c5",
+      "unicode_decimal": 59077
+    }
+  ]
+}

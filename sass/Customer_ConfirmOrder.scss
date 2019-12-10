@@ -1,0 +1,216 @@
+@charset "utf-8";
+@import '../lib/hotcss-master/src/px2rem.scss';
+$designWidth : 640;
+body{
+    background-color: #f5f5f5;
+}
+.main{
+    
+    .top1{
+        width: 100%;
+        height:px2rem(76);
+        line-height:px2rem(76);
+        background-color: #ffffff;
+        div{
+            text-align: center;
+            position: relative;
+            font-size:px2rem(28);
+            font-weight: bold;
+            .iconfont{
+                position: absolute;
+                font-size:px2rem(37);
+                left:px2rem(20);
+            }
+        }
+
+    }
+    .top2{
+        background-color: #ffffff;
+        position: relative;
+        padding-bottom:px2rem(15);
+        .top2_center{
+            padding-top:px2rem(40) ;
+            margin-left:px2rem(21) ;
+            margin-right:px2rem(21) ;
+            padding-bottom:px2rem(40);
+            border-bottom:px2rem(4) dashed red;
+            .icon-shoujianren{
+                font-size:px2rem(40);
+                border-radius: 50%;
+                width:px2rem(82);
+                height:px2rem(84);
+                line-height:px2rem(84);
+                text-align: center;
+                background-color: #fc8355;
+                color: #ffffff;
+                float: left;
+            }
+            .top2_m{
+                margin-left:px2rem(90);
+                margin-right:px2rem(55);
+                .top2_m_t{
+                    display: flex;
+                    justify-content: space-between;
+                    font-size:px2rem(36);
+                    color: #181818;
+                }
+                .top2_m_b{
+                    font-size: px2rem(23);
+                    color: #a0a0a0;
+                }
+            }
+            .icon-fanhui{
+                position: absolute;
+                top:px2rem(25) ;
+                right:px2rem(21);
+                font-size:px2rem(20);
+            }
+        }
+    }
+    .content{
+        background-color: #ffffff;
+        .content_c{
+            margin-left:px2rem(27);
+            margin-right:px2rem(26);
+            .content_c_1{
+                height:px2rem(79);
+                line-height: px2rem(79);
+                display: flex;
+                font-size: px2rem(33);
+                border-bottom:px2rem(1) solid #f0f0f0;
+                .iconfont{
+                    font-size: px2rem(35);
+                    color: #939393;
+                    margin-right:px2rem(10) ;
+                }
+            }
+            .content_c_2{
+                display: flex;
+                justify-content: space-between;
+                height: px2rem(128);
+                border-bottom:px2rem(2) solid #f0f0f0;
+                .content_c_2_l{
+                    display: flex;
+                    height:px2rem(82);
+                    img{
+                        width: px2rem(104);
+                        height: px2rem(125);
+                    }
+                    .content_c_2_text{
+                        font-size:px2rem(27);
+                        margin-top:px2rem(15) ;
+                        margin-left:px2rem(20);
+                        .number{
+                            display: flex;
+                            margin-top:px2rem(27) ;
+                            font-size:px2rem(15);
+                            justify-content: space-between;
+                            color: #a0a0a0;
+                        }
+                    }
+                }
+                .content_c_2_l_r{
+                    font-size:px2rem(27);
+                    margin-top:px2rem(15) ;
+                }
+            }
+            .content_c_3{
+                font-size:px2rem(25) ;
+                color: #7f7f7f;
+                margin-top:px2rem(30) ;
+                height:px2rem(219) ;
+                .content_c_3_text{
+                    display: flex;
+                    justify-content: space-between;
+                    margin-bottom:px2rem(23) ;
+                    .Total{
+                        color: red;
+                    }
+                }
+            }
+        }
+    }
+    .pay{
+        margin-top:px2rem(15);
+        font-size:px2rem(26);
+        height:px2rem(247) ;
+        background-color: #ffffff;
+        margin-bottom:px2rem(15);
+        
+        .choose{
+            font-size:px2rem(24);
+            color: #d6d6d6;
+            display: flex;
+            .iconfont{
+                font-size:px2rem(24);
+                margin-left:px2rem(10);
+            }
+        }
+        .pay_top{
+            display: flex;
+            justify-content: space-between;
+            height:px2rem(84);
+            line-height: px2rem(84);
+            border-bottom:px2rem(2) solid #f0f0f0;
+            margin-right:px2rem(27);
+            margin-left:px2rem(30);
+        }
+        .pay_middle{
+            display: flex;
+            justify-content: space-between;
+            height:px2rem(84);
+            line-height: px2rem(84);
+            margin-right:px2rem(27);
+            margin-left:px2rem(30);
+            border-bottom:px2rem(2) solid #f0f0f0;
+        }
+        .pay_bottom{
+            display: flex;
+            justify-content: space-between;
+            height:px2rem(84);
+            margin-right:px2rem(27);
+            line-height: px2rem(84);
+            margin-left:px2rem(30);
+        }
+    }
+    .note{
+        font-size:px2rem(24);
+        color: #d6d6d6;
+        height:px2rem(84);
+        line-height: px2rem(84);
+        // margin-bottom:px2rem(83);
+        margin-bottom:px2rem(151);
+        background-color: #ffffff;
+        p{
+            margin-left:px2rem(27);
+        }
+    }
+    .checkout{
+        display:flex;
+        justify-content: space-between;
+        width: 100%;
+        height:px2rem(83);
+        line-height:px2rem(83);
+        // margin-top:px2rem(68);
+        position: fixed;
+        bottom: 0;
+        border-top:px2rem(1) solid #f5f5f5 ;
+        background-color: #ffffff;
+        .sum{
+            flex: 1;
+            margin-left:px2rem(23);
+            .sum_p{
+                color: red;
+            }
+        }
+        .sum span:nth-child(1){
+            color: #000;
+        }
+        .determine{
+            width:px2rem(245);
+            background-color: #fb9640;
+            text-align: center;
+            color: #ffffff;
+        }
+    }
+}

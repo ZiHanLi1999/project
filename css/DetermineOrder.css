@@ -1,0 +1,62 @@
+body {
+  background-color: #ffffff; }
+
+.main {
+  width: 100%; }
+  .main .StatusBar {
+    height: 0.95rem;
+    width: 100%; }
+    .main .StatusBar img {
+      display: flex;
+      margin: 0 auto;
+      width: 16rem;
+      height: 0.95rem; }
+  .main .top {
+    width: 100%;
+    height: 1.9rem;
+    line-height: 1.9rem;
+    background-color: #ffffff; }
+    .main .top div {
+      text-align: center;
+      position: relative;
+      font-size: 0.7rem;
+      font-weight: bold; }
+      .main .top div .iconfont {
+        position: absolute;
+        font-size: 0.925rem;
+        left: 0.5rem; }
+  .main .middle {
+    margin-top: 3.75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .main .middle .middle_img img {
+      width: 4.25rem;
+      height: 4.25rem; }
+    .main .middle .p1 {
+      font-size: 0.775rem;
+      color: #343434;
+      margin-top: 1.1rem; }
+    .main .middle .p2 {
+      font-size: 0.65rem;
+      color: #c6c6c6;
+      margin-top: 0.875rem; }
+    .main .middle .btn_1 {
+      width: 10.625rem;
+      height: 1.9rem;
+      line-height: 1.9rem;
+      text-align: center;
+      background-color: #333333;
+      border-radius: 60px;
+      color: #fefefe;
+      margin-top: 1.5rem; }
+    .main .middle .btn_2 {
+      width: 9.875rem;
+      height: 2.025rem;
+      border-radius: 60px;
+      line-height: 2.025rem;
+      text-align: center;
+      border: 0.05rem solid #e3e3e3;
+      color: #404040;
+      margin-top: 1.175rem;
+      margin-bottom: 7.975rem; }
